@@ -4,62 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP1Curso</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header-collor">
         <nav>
             <ul>
-                <li><a href="https://www.todoshowcase.com/">SHOWCASE</a></li>
-                <li> <a href="https://www.cinemarkhoyts.com.ar/">CINEMARK Hoyts</a></li>
-                <li><a href="https://www.cinepolis.com.ar/">CINEPOLIS</a></li>
+                <li> <a href="https://www.todoshowcase.com/" target="_blank">SHOWCASE</a></li>
+                <li> <a href="https://www.cinemarkhoyts.com.ar/" target="_blank" >CINEMARK Hoyts</a></li>
+                <li><a href="https://www.cinepolis.com.ar/" target="_blank">CINEPOLIS</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Encabezado</h1>
-        <p>Hola,mundo</p>
+        
         <form action="#" method="get">
-            <ol>
-                <li>
-                    <p>Nombre</p>
-                    <input type="text">
-                </li>
-                <li>
-                    <p>Apellido</p>
-                    <input type="text">
-                </li>
-                <li>
-                    <p>Edad</p>
-                    <input type="number">
-                </li>
-                <li>
-                    <p>Fecha de nacimiento</p>
-                    <input type="date">
-                </li>
-                <li>
-                    <p>Nacionalidad</p>
-                    <select>
-                    <option value="arg">Argentina</option>
-                    <option value="fr">Francia</option>
-                    <option value="br">Brasil</option>
-                </select>
-                </li>
-                <li>
-                    <p>Mail</p>
-                    <input type="email">
-                </li>
-                <li>
-                    <p>Usuario</p>
-                    <input type="text">
-                </li>
-                <li>
-                    <p>Contraseña</p>
-                    <input type="password">
-                </li>
-                <li>
-                    <p></p>
-                    <input type="submit" value="Confirmar">
-                </li>
+            <ol class="ListSize"> 
+                <p>Datos Personales</p>
+                <div class="textSize">
+                    <li>
+                        <p>Nombre</p>
+                        <input type="text" placeholder="Juan" class="RedColor">
+                    </li>
+                    <li>
+                        <p>Apellido</p>
+                        <input type="text" placeholder="Perez" class="RedColor" >
+                    </li>
+                    <li>
+                        <p>Edad</p>
+                        <input type="number" placeholder="18" class="RedColor">
+                    </li>
+                    <li>
+                        <p>Fecha de nacimiento</p>
+                        <input type="date"  class="RedColor">
+                    </li>
+                    <li>
+                        <p >Nacionalidad</p>
+                        <select class="RedColor">
+                        <option value="arg" class="RedColor">Argentina</option>
+                        <option value="fr" class="RedColor">Francia</option>
+                        <option value="br" class="RedColor">Brasil</option>
+                        </select>
+                    </li>
+                </div>
+                <p>Datos de Usuario</p>
+                <div class="textSize">
+                    <li>
+                        <p>Mail</p>
+                        <input type="email" placeholder="juanprez@mail.com.ar" class="RedColor">
+                    </li>
+                    <li>
+                        <p>Usuario</p>
+                        <input type="text" placeholder="HuaPer336" class="RedColor">
+                    </li>
+                    <li>
+                        <p>Contraseña</p>
+                        <input type="password" placeholder="***********" class="RedColor">
+                    </li>
+                    <li>
+                        <p></p>
+                        <input type="submit" value="Confirmar">
+                    </li>
+                </div>
             </ol>   
         </form>
     </main>
