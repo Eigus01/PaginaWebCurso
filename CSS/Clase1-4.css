@@ -1,0 +1,53 @@
+/*
+    color-primario: #ff0000;
+    color-secundario: #0000ff;
+    color-terciario: #ad8f58;
+    color-cuarto: #11ff88;
+*/
+.header-collor{
+    background-color: #ad8f58;
+}
+.ListSize
+{
+    font-size: 30px;
+}
+.ListSize .textSize
+{
+    font-size: 20px;
+}
+.RedColor
+{
+    color: #ff0000;
+    font-style: Arial;
+}
+::placeholder
+{
+    color: #0000ff46;
+    font-size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;   
+}
+.paddingLi
+{
+    padding-left: 2em;
+}
+
+a
+{
+    color: green;
+}
+.liWidth
+{
+    width: 200px;
+    padding-left: 2em;
+    background-image: url("../img/fondo2.jpg");
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.backImg
+{
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

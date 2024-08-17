@@ -1,53 +1,118 @@
-/*
-    color-primario: #ff0000;
-    color-secundario: #0000ff;
-    color-terciario: #ad8f58;
-    color-cuarto: #11ff88;
-*/
-.header-collor{
-    background-color: #ad8f58;
-}
-.ListSize
+.headerImg
 {
-    font-size: 30px;
+    background-image: url("../img/Header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
 }
-.ListSize .textSize
+.headerDisplay
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(112, 162, 211);
+    border: 2px solid white;
+}
+.headerText
+{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    padding: 10px;
     font-size: 20px;
+    
 }
-.RedColor
+.title
 {
-    color: #ff0000;
-    font-style: Arial;
+    margin: 0px;
+    color: rgb(14, 64, 230);
+    padding: 10px;
+    font-size: 40px;
+    
 }
-::placeholder
-{
-    color: #0000ff46;
-    font-size: 15px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;   
+a{
+    text-decoration: none;
 }
-.paddingLi
+.boxtext
 {
-    padding-left: 2em;
+    border: 6px solid black;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+main
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.mainbox
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.mainflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+.secondflex
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+}
+.percent
+{
+    width:30%;
+    margin-bottom: 0px;
 }
 
-a
+.footer
 {
-    color: green;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 128, 212);
+
 }
-.liWidth
-{
-    width: 200px;
-    padding-left: 2em;
-    background-image: url("../img/fondo2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.footerText{
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
 }
-.backImg
-{
-    background-image: url("../img/fondo.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
+@media(max-width: 425px){
+    .title{
+        
+        font-size: 20px;
+        text-align: center;
+    }
+    .mainbox{
+        flex-direction: column;
+    }
+    .mainflex{
+        flex-direction: column;
+    }
+    .secondflex{
+        flex-direction: column;
+    }
+    .percent{
+        margin-bottom: 25px; 
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerText{
+        text-align: center;  
+    }
 }
