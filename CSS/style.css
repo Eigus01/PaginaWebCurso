@@ -39,6 +39,8 @@ a{
     border: 6px solid black;
     margin: 5px;
     margin-bottom: 20px;
+    height: 200px;
+    width: 150px;
 }
 main
 {
@@ -70,8 +72,12 @@ main
 }
 .percent
 {
+    display: flex;
+    flex-direction: column;
     width:30%;
     margin-bottom: 0px;
+    justify-content:flex-end;
+    align-items: center;
 }
 
 .footer
@@ -87,8 +93,77 @@ main
     font-size: 15px;
     color: white;
 }
+.titlestyle
+{
+    text-align:center;
+    display: flex;
+    align-items: flex-end;
+   
+}
+.pText{
+color: white;
+}
+.gridTest
+{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 2fr ;
+    justify-items: center;
+    
+}
+.title-cards-container{
+    
+    background-color: black;
+    color: white;
+    padding: 1.2em .5em;
+    margin: 0;
+    text-align: end;
+    grid-column: span 2;
+  
+   
+}
+.gridLefft
+{
+    border: 6px solid black;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.Vladik
+{
+    background-image: url("../img/VLABRU.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.gamebox
+{
+    border: 6px solid black;
+    margin: 5px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 150px;
+    
+}
+.gamebox:hover  {
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 0px 0px 20px rgb(0, 128, 255);
+}
 
-@media(max-width: 425px){
+@media(max-width: 1024px){
+    .mainflex{
+        flex-direction: column;
+    }
+    .percent{
+        margin-bottom: 25px; 
+        width: 100%;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+@media(max-width: 768px){
     .title{
         
         font-size: 20px;
@@ -96,16 +171,24 @@ main
     }
     .mainbox{
         flex-direction: column;
+        justify-content:center;
+        align-items: center;
     }
     .mainflex{
         flex-direction: column;
     }
     .secondflex{
         flex-direction: column;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
     }
     .percent{
         margin-bottom: 25px; 
         width: 100%;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
     }
     .footer{
         flex-direction: column;
@@ -114,5 +197,23 @@ main
     }
     .footerText{
         text-align: center;  
+    }
+    .boxtext{
+        height: 400px;
+        width: 300px;
+    }
+    .gamebox{
+        height: 400px;
+        width: 300px;
+    }
+}
+@media(max-width: 425px){
+    .boxtext{
+        height: 300px;
+        width: 225px;
+    }
+    .gamebox{
+        height: 300px;
+        width: 225px;
     }
 }
