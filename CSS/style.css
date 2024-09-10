@@ -1,22 +1,17 @@
-.headerImg
-{
+.headerImg{
     background-image: url("../img/Header.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 500px;
 }
-
-.headerDisplay
-{
+.headerDisplay{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(112, 162, 211);
-    border: 2px solid white;
 }
-.headerText
-{
+.headerText{
     margin-top: 10px;
     margin-bottom: 0px;
     color: white;
@@ -24,8 +19,7 @@
     font-size: 20px;
     
 }
-.title
-{
+.title{
     margin: 0px;
     color: rgb(14, 64, 230);
     padding: 10px;
@@ -35,21 +29,18 @@
 a{
     text-decoration: none;
 }
-.boxtext
-{
+.boxtext{
     border: 6px solid black;
     margin: 5px;
     margin-bottom: 20px;
     height: 200px;
     width: 150px;
 }
-main
-{
+main{
     margin-top: 50px;
     margin-bottom: 20px;
 }
-.mainbox
-{
+.mainbox{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -64,23 +55,20 @@ main
     justify-content: center;
     width: 80%;
 }
-.secondflex
-{
+.secondflex{
     display: flex;
     justify-content: space-evenly;
     width: 80%;
 
 }
-.percent
-{
+.percent{
     display: flex;
     flex-direction: column;
     margin-bottom: 0px;
     justify-content:space-around;
     align-items: center;
 }
-.GamePercent
-{
+.GamePercent{
     display: flex;
     flex-direction: column;
     width:80%;
@@ -88,9 +76,7 @@ main
     justify-content:flex-end;
     align-items: center;
 }
-
-.footer
-{
+.footer{
     display: flex;
     justify-content: space-between;
     background-color: rgb(37, 128, 212);
@@ -106,8 +92,7 @@ main
     font-size: 15px;
     color: white;
 }
-.titlestyle
-{
+.titlestyle{
     text-align:center;
     display: flex;
     align-items: flex-end;
@@ -116,8 +101,7 @@ main
 .pText{
 color: white;
 }
-.gridTest
-{
+.gridTest{
     display: grid;
     gap: 2em;
     grid-template-columns: 1fr 2fr ;
@@ -135,8 +119,7 @@ color: white;
   
    
 }
-.gridLefft
-{
+.gridLefft{
     border: 6px solid black;
     margin: 5px;
     margin-bottom: 20px;
@@ -163,7 +146,7 @@ color: white;
     background-color: rgb(37, 128, 212);
 }
 P{
-    margin: 0px;
+    margin: 5px;
 }
 .captura{
     display: flex;
@@ -178,24 +161,63 @@ P{
 .capturaMargin{
     margin: 10px;
 }
-.Vladik
-{
+.Vladik{
     background-image: url("../img/VLABRU.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
 }
-.dundaria
-{
+.dundaria{
     background-image: url("../img/DUNDARIA.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
 }
-.gamebox
-{
+.punchClub2{
+    background-image: url("../img/PUNCHC2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.spaceMarine2{
+    background-image: url("../img/WH4KSCPM2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.coreKeeper{
+    background-image: url("../img/COREKPE.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.ghostrunner2{
+    background-image: url("../img/GHSTRNR2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.vampireSurvivor{
+    background-image: url("../img/VAMPSUV.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.steamWorld{
+    background-image: url("../img/STEMWCLL.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.falloutNewVegas{
+    background-image: url("../img/FLLNVUE.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.gamebox{
     border: 6px solid black;
     margin: 5px;
     margin-bottom: 20px;
@@ -203,7 +225,7 @@ P{
     width: 150px;
     
 }
-.gamebox:hover  {
+.gamebox:hover{
     cursor: pointer;
     opacity: 0.9;
     box-shadow: 0px 0px 20px rgb(0, 128, 255);
@@ -211,8 +233,7 @@ P{
 .caratula{
     width: 100%;
 }
-.link
-{
+.link{
     font-size: 30px;
     border: 6px solid black;
     padding: 10px;    
@@ -288,4 +309,7 @@ P{
         height: 300px;
         width: 225px;
     }
+}
+body{
+    background-color: rgb(230, 230, 230);
 }
